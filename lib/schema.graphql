@@ -1,0 +1,11 @@
+type AirbnbHomePage {
+    image: String
+    title: String
+    description: String
+    price: String
+    rating: String
+}
+type Query {
+    "Retorna las casas del home page"
+    gethomePage: [AirbnbHomePage]
+}
